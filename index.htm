@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var tasks=[];// создаем массив
+        function add_tasks(){// тут мы просто создаем функцию используя специальное слово "function"
+            tasks=prompt('Что вам нужно сделать?');// тут мы просим пользователя ввести какое то значение
+            tasks.push(tasks);// тут мы добавляем в наш массив tasks то значение, которое ввел пользователь
+        }//тут мы заканчиваем функцию add_tasks()
+
+        function del(){// тут мы просто создаем функцию используя специальное слово "function"
+            tasks.pop();// с помощью pop мы удаляем последний элемент нашего массива tasks 
+        }//тут мы заканчиваем  функцию del()
+    </script>
+</body>
+</html>
